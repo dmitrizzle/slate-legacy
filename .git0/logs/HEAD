@@ -1,0 +1,13 @@
+0000000000000000000000000000000000000000 8cd9b793528eb76a4a76940e022854cf33419bc4 dmitrizzle <8587882+dmitrizzle@users.noreply.github.com> 1579237317 -0800	clone: from https://github.com/dmitrizzle/slate.git
+8cd9b793528eb76a4a76940e022854cf33419bc4 57138de130b1e9ca7fdada35dda76aef90777543 dmitrizzle <8587882+dmitrizzle@users.noreply.github.com> 1579237344 -0800	checkout: moving from master to tags/slate-react@0.13.0
+57138de130b1e9ca7fdada35dda76aef90777543 57138de130b1e9ca7fdada35dda76aef90777543 dmitrizzle <8587882+dmitrizzle@users.noreply.github.com> 1579536923 -0800	checkout: moving from 57138de130b1e9ca7fdada35dda76aef90777543 to fix/upgrade-react-lifecycle
+57138de130b1e9ca7fdada35dda76aef90777543 f102f843ee258db90e384688602cf88611fe5bfc dmitrizzle <8587882+dmitrizzle@users.noreply.github.com> 1579536940 -0800	commit: Upgarde React lifecycle method
+f102f843ee258db90e384688602cf88611fe5bfc 8cd9b793528eb76a4a76940e022854cf33419bc4 dmitrizzle <8587882+dmitrizzle@users.noreply.github.com> 1579536950 -0800	checkout: moving from fix/upgrade-react-lifecycle to master
+8cd9b793528eb76a4a76940e022854cf33419bc4 f102f843ee258db90e384688602cf88611fe5bfc dmitrizzle <8587882+dmitrizzle@users.noreply.github.com> 1579536991 -0800	checkout: moving from master to fix/upgrade-react-lifecycle
+f102f843ee258db90e384688602cf88611fe5bfc 8cd9b793528eb76a4a76940e022854cf33419bc4 dmitrizzle <8587882+dmitrizzle@users.noreply.github.com> 1579537174 -0800	checkout: moving from fix/upgrade-react-lifecycle to master
+8cd9b793528eb76a4a76940e022854cf33419bc4 f102f843ee258db90e384688602cf88611fe5bfc dmitrizzle <8587882+dmitrizzle@users.noreply.github.com> 1579537233 -0800	checkout: moving from master to fix/upgrade-react-lifecycle
+f102f843ee258db90e384688602cf88611fe5bfc 97e9164ea1357ab89bda554a1bb43e54ea131c95 dmitrizzle <8587882+dmitrizzle@users.noreply.github.com> 1579537364 -0800	commit: Publish
+97e9164ea1357ab89bda554a1bb43e54ea131c95 25fbf7717f184f1d93a9a30bbdeaffd312e07d72 dmitrizzle <8587882+dmitrizzle@users.noreply.github.com> 1579537580 -0800	commit: Change package name
+25fbf7717f184f1d93a9a30bbdeaffd312e07d72 25fbf7717f184f1d93a9a30bbdeaffd312e07d72 dmitrizzle <8587882+dmitrizzle@users.noreply.github.com> 1579537753 -0800	reset: moving to HEAD
+25fbf7717f184f1d93a9a30bbdeaffd312e07d72 25fbf7717f184f1d93a9a30bbdeaffd312e07d72 dmitrizzle <8587882+dmitrizzle@users.noreply.github.com> 1579538456 -0800	reset: moving to HEAD
+25fbf7717f184f1d93a9a30bbdeaffd312e07d72 2d2960ad36ada5b6652d28237185e0426a98f993 dmitrizzle <8587882+dmitrizzle@users.noreply.github.com> 1579538600 -0800	commit: Revert package name
