@@ -22,7 +22,8 @@ export const input = (
   <value>
     <document>
       <paragraph>
-        <anchor />w<focus />ord
+        <anchor />w<focus />
+        ord
       </paragraph>
     </document>
   </value>
@@ -36,7 +37,8 @@ export const output = (
         <i thing2="value2">
           <b thing="value">w</b>
         </i>
-        <focus />ord
+        <focus />
+        ord
       </paragraph>
     </document>
   </value>

@@ -11,13 +11,15 @@ export const input = (
     <document>
       <quote>
         <paragraph>
-          one<anchor />
+          one
+          <anchor />
         </paragraph>
         <paragraph>two</paragraph>
       </quote>
       <quote>
         <paragraph>
-          <focus />three
+          <focus />
+          three
         </paragraph>
         <paragraph>four</paragraph>
       </quote>
@@ -30,7 +32,9 @@ export const output = (
     <document>
       <quote>
         <paragraph>
-          one<cursor />three
+          one
+          <cursor />
+          three
         </paragraph>
       </quote>
       <quote>

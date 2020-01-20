@@ -16,7 +16,8 @@ export const input = (
   <value>
     <document>
       <paragraph>
-        This <cursor />is some text inside a paragraph.
+        This <cursor />
+        is some text inside a paragraph.
       </paragraph>
     </document>
   </value>
@@ -26,7 +27,8 @@ export const output = (
   <value>
     <document>
       <paragraph>
-        Th<cursor />a paragraph.
+        Th
+        <cursor />a paragraph.
       </paragraph>
     </document>
   </value>

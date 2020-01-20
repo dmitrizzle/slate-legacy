@@ -12,7 +12,8 @@ export const input = (
       <paragraph>
         <anchor />
         <i>w</i>
-        <focus />ord
+        <focus />
+        ord
       </paragraph>
     </document>
   </value>
@@ -24,7 +25,8 @@ export const output = (
       <paragraph>
         <anchor />
         <b>w</b>
-        <focus />ord
+        <focus />
+        ord
       </paragraph>
     </document>
   </value>

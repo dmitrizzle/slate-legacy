@@ -6,10 +6,12 @@ export const input = (
   <value>
     <document>
       <block type="paragraph">
-        This is one <anchor />block.
+        This is one <anchor />
+        block.
       </block>
       <block type="paragraph">
-        This is block<focus /> two.
+        This is block
+        <focus /> two.
       </block>
     </document>
   </value>

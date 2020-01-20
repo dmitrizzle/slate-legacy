@@ -10,7 +10,8 @@ export const input = (
   <value>
     <document>
       <paragraph>
-        <anchor />one
+        <anchor />
+        one
       </paragraph>
       <image>
         <focus />

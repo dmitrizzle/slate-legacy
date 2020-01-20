@@ -16,7 +16,8 @@ export const input = (
     <document>
       <block type="paragraph">
         This is a <highlight>paragraph with</highlight> a cursor position{' '}
-        <cursor />(closed selection).
+        <cursor />
+        (closed selection).
       </block>
     </document>
   </value>

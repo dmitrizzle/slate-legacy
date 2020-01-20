@@ -4,7 +4,7 @@ import { Set } from 'immutable'
 import h from '../../../../helpers/h'
 import { Mark } from '../../../../..'
 
-export const input = <text>CatCute</text>[0]
+export const input = (<text>CatCute</text>)[0]
 
 export default function(t) {
   return t.insertText(3, ' is ', Set.of(Mark.create('bold')))

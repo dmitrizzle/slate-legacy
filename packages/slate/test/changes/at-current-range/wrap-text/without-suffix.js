@@ -10,7 +10,9 @@ export const input = (
   <value>
     <document>
       <paragraph>
-        w<anchor />or<focus />d
+        w<anchor />
+        or
+        <focus />d
       </paragraph>
     </document>
   </value>
@@ -20,7 +22,11 @@ export const output = (
   <value>
     <document>
       <paragraph>
-        w**<anchor />or<focus />**d
+        w**
+        <anchor />
+        or
+        <focus />
+        **d
       </paragraph>
     </document>
   </value>

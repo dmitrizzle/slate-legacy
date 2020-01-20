@@ -11,7 +11,9 @@ export const input = (
     <document>
       <paragraph>
         <link>
-          wo<cursor />rd
+          wo
+          <cursor />
+          rd
         </link>
       </paragraph>
     </document>
@@ -24,7 +26,8 @@ export const output = (
       <paragraph>
         <link>wo</link>
         <link>
-          <cursor />rd
+          <cursor />
+          rd
         </link>
       </paragraph>
     </document>

@@ -14,7 +14,10 @@ export const input = (
   <value>
     <document>
       <paragraph>
-        <anchor />wo<focus />rd
+        <anchor />
+        wo
+        <focus />
+        rd
       </paragraph>
     </document>
   </value>

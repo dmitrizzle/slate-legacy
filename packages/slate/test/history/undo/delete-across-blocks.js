@@ -16,10 +16,12 @@ export const input = (
   <value>
     <document>
       <paragraph data={{ key: 'value' }}>
-        o<anchor />ne
+        o<anchor />
+        ne
       </paragraph>
       <code data={{ key2: 'value2' }}>
-        tw<focus />o
+        tw
+        <focus />o
       </code>
     </document>
   </value>

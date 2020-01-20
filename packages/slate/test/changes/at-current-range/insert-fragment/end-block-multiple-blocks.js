@@ -16,7 +16,8 @@ export const input = (
   <value>
     <document>
       <paragraph>
-        word<cursor />
+        word
+        <cursor />
       </paragraph>
     </document>
   </value>
@@ -28,7 +29,8 @@ export const output = (
       <paragraph>wordone</paragraph>
       <quote>two</quote>
       <quote>
-        three<cursor />
+        three
+        <cursor />
       </quote>
     </document>
   </value>

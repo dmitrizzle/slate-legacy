@@ -10,7 +10,8 @@ export const input = (
   <value>
     <document>
       <paragraph>
-        o<cursor />ne two three
+        o<cursor />
+        ne two three
       </paragraph>
     </document>
   </value>

@@ -16,7 +16,8 @@ export const input = (
       </paragraph>
       <paragraph>
         <b>
-          <cursor />Cute
+          <cursor />
+          Cute
         </b>
       </paragraph>
     </document>
@@ -33,7 +34,8 @@ export const output = (
       </paragraph>
       <paragraph>
         <b>
-          is <cursor />Cute
+          is <cursor />
+          Cute
         </b>
       </paragraph>
     </document>

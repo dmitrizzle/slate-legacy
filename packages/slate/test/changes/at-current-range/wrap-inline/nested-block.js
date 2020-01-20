@@ -11,7 +11,9 @@ export const input = (
     <document>
       <quote>
         <paragraph>
-          w<anchor />or<focus />d
+          w<anchor />
+          or
+          <focus />d
         </paragraph>
       </quote>
     </document>
@@ -23,8 +25,10 @@ export const output = (
     <document>
       <quote>
         <paragraph>
-          w<hashtag>
-            <anchor />or
+          w
+          <hashtag>
+            <anchor />
+            or
           </hashtag>
           <focus />d
         </paragraph>

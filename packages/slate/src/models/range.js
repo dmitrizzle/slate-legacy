@@ -522,7 +522,9 @@ class Range extends Record(DEFAULTS) {
       isBackward:
         key == focusKey
           ? offset > focusOffset
-          : key == anchorKey ? isBackward : null,
+          : key == anchorKey
+          ? isBackward
+          : null,
     })
   }
 
@@ -542,7 +544,9 @@ class Range extends Record(DEFAULTS) {
       isBackward:
         key == anchorKey
           ? anchorOffset > offset
-          : key == focusKey ? isBackward : null,
+          : key == focusKey
+          ? isBackward
+          : null,
     })
   }
 

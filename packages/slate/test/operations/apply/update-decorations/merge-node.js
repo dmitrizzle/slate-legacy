@@ -24,10 +24,12 @@ export const input = (
   <value>
     <document>
       <paragraph>
-        The decoration begins<highlight key="1" /> in this paragraph
+        The decoration begins
+        <highlight key="1" /> in this paragraph
       </paragraph>
       <paragraph>
-        And ends in this soon-to-be merged<highlight key="1" /> one.
+        And ends in this soon-to-be merged
+        <highlight key="1" /> one.
       </paragraph>
     </document>
   </value>
@@ -37,8 +39,10 @@ export const output = (
   <value>
     <document>
       <paragraph>
-        The decoration begins<highlight key="1" /> in this paragraphAnd ends in
-        this soon-to-be merged<highlight key="1" /> one.
+        The decoration begins
+        <highlight key="1" /> in this paragraphAnd ends in this soon-to-be
+        merged
+        <highlight key="1" /> one.
       </paragraph>
     </document>
   </value>

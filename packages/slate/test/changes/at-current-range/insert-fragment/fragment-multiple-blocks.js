@@ -15,7 +15,9 @@ export const input = (
   <value>
     <document>
       <paragraph>
-        wo<cursor />rd
+        wo
+        <cursor />
+        rd
       </paragraph>
     </document>
   </value>
@@ -26,7 +28,9 @@ export const output = (
     <document>
       <paragraph>woone</paragraph>
       <quote>
-        two<cursor />rd
+        two
+        <cursor />
+        rd
       </quote>
     </document>
   </value>

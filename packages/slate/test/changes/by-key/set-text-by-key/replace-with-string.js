@@ -10,7 +10,8 @@ export const input = (
   <value>
     <document>
       <paragraph>
-        <cursor />word
+        <cursor />
+        word
       </paragraph>
     </document>
   </value>
@@ -20,7 +21,8 @@ export const output = (
   <value>
     <document>
       <paragraph>
-        cat is cute<cursor />
+        cat is cute
+        <cursor />
       </paragraph>
     </document>
   </value>

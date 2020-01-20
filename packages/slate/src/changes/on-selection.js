@@ -39,9 +39,12 @@ Changes.select = (change, properties, options = {}) => {
 
   // If the selection moves, clear any marks, unless the new selection
   // properties change the marks in some way.
-  const moved = ['anchorKey', 'anchorOffset', 'focusKey', 'focusOffset'].some(
-    p => props.hasOwnProperty(p)
-  )
+  const moved = [
+    'anchorKey',
+    'anchorOffset',
+    'focusKey',
+    'focusOffset',
+  ].some(p => props.hasOwnProperty(p))
 
   if (sel.marks && properties.marks == sel.marks && moved) {
     props.marks = null

@@ -729,7 +729,9 @@ class Node {
       const index = parent.nodes.indexOf(child)
       const position =
         child.object == 'text'
-          ? startKey == endKey ? endOffset - startOffset : endOffset
+          ? startKey == endKey
+            ? endOffset - startOffset
+            : endOffset
           : child.nodes.indexOf(previous)
 
       parent = parent.splitNode(index, position)
@@ -1869,9 +1871,7 @@ class Node {
 
     if (one.object != two.object) {
       throw new Error(
-        `Tried to merge two nodes of different objects: "${one.object}" and "${
-          two.object
-        }".`
+        `Tried to merge two nodes of different objects: "${one.object}" and "${two.object}".`
       )
     }
 

@@ -18,7 +18,9 @@ export const input = (
       <paragraph>
         This is a paragraph with a cursor{' '}
         <b>
-          positi<cursor />on
+          positi
+          <cursor />
+          on
         </b>{' '}
         within a mark.
       </paragraph>

@@ -12,7 +12,9 @@ export const input = (
       <paragraph>
         <anchor />
         <i>
-          wo<focus />rd
+          wo
+          <focus />
+          rd
         </i>
       </paragraph>
     </document>

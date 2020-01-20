@@ -14,7 +14,9 @@ export const input = (
     <document>
       <paragraph>
         <link>
-          wo<cursor />rd
+          wo
+          <cursor />
+          rd
         </link>
       </paragraph>
     </document>
@@ -26,9 +28,11 @@ export const output = (
     <document>
       <paragraph>
         <link>
-          wo<emoji>
+          wo
+          <emoji>
             <cursor />
-          </emoji>rd
+          </emoji>
+          rd
         </link>
       </paragraph>
     </document>

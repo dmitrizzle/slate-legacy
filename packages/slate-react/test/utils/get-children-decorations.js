@@ -29,7 +29,10 @@ describe('getChildrenDecorations', () => {
 
     const expected = [[], []]
 
-    assert.deepEqual(actual.map(l => l.toArray()), expected)
+    assert.deepEqual(
+      actual.map(l => l.toArray()),
+      expected
+    )
   })
 
   it('should wrap a block with the range it contains', () => {
@@ -45,7 +48,10 @@ describe('getChildrenDecorations', () => {
 
     const expected = [[decoration1], []]
 
-    assert.deepEqual(actual.map(l => l.toArray()), expected)
+    assert.deepEqual(
+      actual.map(l => l.toArray()),
+      expected
+    )
   })
 
   it('should sort two decorations inside a node', () => {
@@ -72,7 +78,10 @@ describe('getChildrenDecorations', () => {
 
     const expected = [[decoration1, decoration2], [decoration2]]
 
-    assert.deepEqual(actual.map(l => l.toArray()), expected)
+    assert.deepEqual(
+      actual.map(l => l.toArray()),
+      expected
+    )
   })
 
   it('should sort decorations outside the node', () => {
@@ -88,6 +97,9 @@ describe('getChildrenDecorations', () => {
 
     const expected = [[decoration1]]
 
-    assert.deepEqual(actual.map(l => l.toArray()), expected)
+    assert.deepEqual(
+      actual.map(l => l.toArray()),
+      expected
+    )
   })
 })

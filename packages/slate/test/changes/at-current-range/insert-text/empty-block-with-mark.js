@@ -23,7 +23,8 @@ export const output = (
     <document>
       <paragraph>
         <b>
-          Cat<cursor />
+          Cat
+          <cursor />
         </b>
       </paragraph>
     </document>

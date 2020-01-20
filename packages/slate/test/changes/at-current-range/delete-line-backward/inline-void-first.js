@@ -10,7 +10,8 @@ export const input = (
   <value>
     <document>
       <paragraph>
-        <emoji>😊</emoji>one two three<cursor />
+        <emoji>😊</emoji>one two three
+        <cursor />
       </paragraph>
     </document>
   </value>

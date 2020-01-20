@@ -135,13 +135,16 @@ class Stack extends Record(DEFAULTS) {
 
   render(property, props, ...args) {
     const plugins = this.getPluginsWith(property)
-    return plugins.reduceRight((children, plugin) => {
-      if (!plugin[property]) return children
-      const ret = plugin[property](props, ...args)
-      if (ret == null) return children
-      props.children = ret
-      return ret
-    }, props.children === undefined ? null : props.children)
+    return plugins.reduceRight(
+      (children, plugin) => {
+        if (!plugin[property]) return children
+        const ret = plugin[property](props, ...args)
+        if (ret == null) return children
+        props.children = ret
+        return ret
+      },
+      props.children === undefined ? null : props.children
+    )
   }
 }
 

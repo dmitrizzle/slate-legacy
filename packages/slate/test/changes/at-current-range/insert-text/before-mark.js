@@ -21,7 +21,8 @@ export const output = (
   <value>
     <document>
       <paragraph>
-        wa<cursor />
+        wa
+        <cursor />
         <b>or</b>d
       </paragraph>
     </document>

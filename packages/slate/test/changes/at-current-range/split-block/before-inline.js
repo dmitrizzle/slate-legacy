@@ -10,9 +10,12 @@ export const input = (
   <value>
     <document>
       <paragraph>
-        word<link href="website.com">
-          <cursor />hyperlink
-        </link>word
+        word
+        <link href="website.com">
+          <cursor />
+          hyperlink
+        </link>
+        word
       </paragraph>
     </document>
   </value>
@@ -24,8 +27,10 @@ export const output = (
       <paragraph>word</paragraph>
       <paragraph>
         <link href="website.com">
-          <cursor />hyperlink
-        </link>word
+          <cursor />
+          hyperlink
+        </link>
+        word
       </paragraph>
     </document>
   </value>

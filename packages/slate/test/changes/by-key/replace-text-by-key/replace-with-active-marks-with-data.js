@@ -16,7 +16,8 @@ export const input = (
       <paragraph>
         Meow,{' '}
         <fontSize size={12}>
-          <cursor />word.
+          <cursor />
+          word.
         </fontSize>
       </paragraph>
     </document>
@@ -29,7 +30,8 @@ export const output = (
       <paragraph>
         Meow, <fontSize size={16}>cat is cute</fontSize>
         <fontSize size={12}>
-          <cursor />d.
+          <cursor />
+          d.
         </fontSize>
       </paragraph>
     </document>

@@ -11,7 +11,9 @@ export const input = (
     <document>
       <paragraph key="a">
         <text key="b">
-          w<anchor />or<focus />d
+          w<anchor />
+          or
+          <focus />d
         </text>
       </paragraph>
     </document>

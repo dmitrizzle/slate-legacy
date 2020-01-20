@@ -16,7 +16,8 @@ export const input = (
   <value>
     <document>
       <paragraph>
-        Hi<cursor /> there <highlight>you</highlight> person
+        Hi
+        <cursor /> there <highlight>you</highlight> person
       </paragraph>
     </document>
   </value>
@@ -26,7 +27,8 @@ export const output = (
   <value>
     <document>
       <paragraph>
-        Hi<cursor /> <highlight>you</highlight> person
+        Hi
+        <cursor /> <highlight>you</highlight> person
       </paragraph>
     </document>
   </value>

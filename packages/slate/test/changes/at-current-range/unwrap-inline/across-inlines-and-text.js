@@ -11,9 +11,13 @@ export const input = (
     <document>
       <paragraph>
         <link>
-          <anchor />one
-        </link>two<link>
-          three<focus />
+          <anchor />
+          one
+        </link>
+        two
+        <link>
+          three
+          <focus />
         </link>
       </paragraph>
     </document>
@@ -24,7 +28,9 @@ export const output = (
   <value>
     <document>
       <paragraph>
-        <anchor />onetwothree<focus />
+        <anchor />
+        onetwothree
+        <focus />
       </paragraph>
     </document>
   </value>

@@ -14,10 +14,12 @@ export const input = (
   <value>
     <document>
       <paragraph>
-        o<anchor />ne
+        o<anchor />
+        ne
       </paragraph>
       <paragraph>
-        tw<focus />o
+        tw
+        <focus />o
       </paragraph>
     </document>
   </value>

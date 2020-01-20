@@ -11,7 +11,9 @@ export const input = (
     <document>
       <paragraph>
         <link>
-          <anchor />word<focus />
+          <anchor />
+          word
+          <focus />
         </link>
       </paragraph>
     </document>

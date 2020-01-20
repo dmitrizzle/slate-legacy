@@ -15,7 +15,8 @@ export const input = (
     <document>
       <quote>
         <paragraph key="a">
-          <cursor />one
+          <cursor />
+          one
         </paragraph>
         <paragraph>two</paragraph>
         <paragraph>three</paragraph>

@@ -15,10 +15,12 @@ export const input = (
     <document>
       <paragraph>
         <b>
-          on<anchor />e
+          on
+          <anchor />e
         </b>
         <u>
-          tw<focus />o
+          tw
+          <focus />o
         </u>
       </paragraph>
     </document>

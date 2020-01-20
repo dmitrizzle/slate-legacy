@@ -11,10 +11,12 @@ export const input = (
     <document>
       <paragraph>zero</paragraph>
       <paragraph>
-        <anchor />word
+        <anchor />
+        word
       </paragraph>
       <quote>
-        <focus />cat is cute
+        <focus />
+        cat is cute
       </quote>
     </document>
   </value>
@@ -26,7 +28,8 @@ export const output = (
       <paragraph>zero</paragraph>
       <paragraph />
       <quote>
-        <cursor />cat is cute
+        <cursor />
+        cat is cute
       </quote>
     </document>
   </value>

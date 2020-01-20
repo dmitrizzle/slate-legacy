@@ -31,9 +31,8 @@ function applyRangeAdjustments(value, checkAffected, adjustRange) {
 
   // check all ranges, apply adjustment if affected
   const decorations = value.decorations
-    .map(
-      decoration =>
-        checkAffected(decoration) ? adjustRange(decoration) : decoration
+    .map(decoration =>
+      checkAffected(decoration) ? adjustRange(decoration) : decoration
     )
     .filter(decoration => decoration.anchorKey !== null)
   return value.set('decorations', decorations)
@@ -311,13 +310,17 @@ const APPLIERS = {
           if (node.hasNode(startKey)) {
             range = prev
               ? range.moveStartTo(prev.key, prev.text.length)
-              : next ? range.moveStartTo(next.key, 0) : range.deselect()
+              : next
+              ? range.moveStartTo(next.key, 0)
+              : range.deselect()
           }
 
           if (node.hasNode(endKey)) {
             range = prev
               ? range.moveEndTo(prev.key, prev.text.length)
-              : next ? range.moveEndTo(next.key, 0) : range.deselect()
+              : next
+              ? range.moveEndTo(next.key, 0)
+              : range.deselect()
           }
 
           // If the range wasn't deselected, normalize it.
@@ -371,8 +374,8 @@ const APPLIERS = {
         range.anchorOffset >= rangeOffset
           ? range.moveAnchor(-length)
           : range.anchorOffset > offset
-            ? range.moveAnchorTo(range.anchorKey, offset)
-            : range
+          ? range.moveAnchorTo(range.anchorKey, offset)
+          : range
     )
 
     value = applyRangeAdjustments(
@@ -384,8 +387,8 @@ const APPLIERS = {
         range.focusOffset >= rangeOffset
           ? range.moveFocus(-length)
           : range.focusOffset > offset
-            ? range.moveFocusTo(range.focusKey, offset)
-            : range
+          ? range.moveFocusTo(range.focusKey, offset)
+          : range
     )
 
     node = node.removeText(offset, length)

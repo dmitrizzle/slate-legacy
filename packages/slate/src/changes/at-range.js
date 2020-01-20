@@ -1174,11 +1174,13 @@ Changes.unwrapBlockAtRange = (change, range, properties, options = {}) => {
 
       change.removeNodeByKey(block.key, { normalize: false })
     } else if (last == lastMatch) {
-      block.nodes.skipUntil(n => n == firstMatch).forEach((child, i) => {
-        change.moveNodeByKey(child.key, parent.key, index + 1 + i, {
-          normalize: false,
+      block.nodes
+        .skipUntil(n => n == firstMatch)
+        .forEach((child, i) => {
+          change.moveNodeByKey(child.key, parent.key, index + 1 + i, {
+            normalize: false,
+          })
         })
-      })
     } else if (first == firstMatch) {
       block.nodes
         .takeUntil(n => n == lastMatch)

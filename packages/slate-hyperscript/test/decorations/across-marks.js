@@ -22,7 +22,8 @@ export const input = (
         <highlight>
           paragraph <b>with</b>
         </highlight>{' '}
-        a cursor position <cursor />(closed selection).
+        a cursor position <cursor />
+        (closed selection).
       </block>
     </document>
   </value>

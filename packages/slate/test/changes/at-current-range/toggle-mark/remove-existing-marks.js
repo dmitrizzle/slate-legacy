@@ -26,7 +26,10 @@ export const output = (
     <document>
       <paragraph>
         <i>
-          <anchor />wo<focus />rd
+          <anchor />
+          wo
+          <focus />
+          rd
         </i>
       </paragraph>
     </document>

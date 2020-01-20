@@ -14,7 +14,8 @@ export const input = (
       </image>
       <paragraph>one</paragraph>
       <paragraph>
-        two<anchor />
+        two
+        <anchor />
       </paragraph>
     </document>
   </value>

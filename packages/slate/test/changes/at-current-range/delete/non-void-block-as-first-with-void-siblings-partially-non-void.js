@@ -10,7 +10,8 @@ export const input = (
   <value>
     <document>
       <paragraph>
-        on<anchor />e<focus />
+        on
+        <anchor />e<focus />
       </paragraph>
       <image />
       <paragraph>three</paragraph>
@@ -22,7 +23,8 @@ export const output = (
   <value>
     <document>
       <paragraph>
-        on<cursor />
+        on
+        <cursor />
       </paragraph>
       <image />
       <paragraph>three</paragraph>

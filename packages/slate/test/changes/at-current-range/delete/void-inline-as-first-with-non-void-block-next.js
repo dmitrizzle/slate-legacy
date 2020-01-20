@@ -10,12 +10,15 @@ export const input = (
   <value>
     <document>
       <paragraph>
-        one<emoji>
+        one
+        <emoji>
           <anchor />
-        </emoji>two
+        </emoji>
+        two
       </paragraph>
       <paragraph>
-        <focus />three
+        <focus />
+        three
       </paragraph>
     </document>
   </value>
@@ -25,7 +28,9 @@ export const output = (
   <value>
     <document>
       <paragraph>
-        one<cursor />three
+        one
+        <cursor />
+        three
       </paragraph>
     </document>
   </value>

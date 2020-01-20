@@ -14,7 +14,8 @@ export const input = (
       </image>
       <image />
       <paragraph>
-        <focus />one
+        <focus />
+        one
       </paragraph>
       <paragraph>two</paragraph>
     </document>
@@ -25,7 +26,8 @@ export const output = (
   <value>
     <document>
       <paragraph>
-        <cursor />one
+        <cursor />
+        one
       </paragraph>
       <paragraph>two</paragraph>
     </document>

@@ -16,7 +16,8 @@ export const input = (
       <paragraph>
         Meow,{' '}
         <b>
-          <cursor />word.
+          <cursor />
+          word.
         </b>
       </paragraph>
     </document>
@@ -30,7 +31,8 @@ export const output = (
         Meow,{' '}
         <i>
           <b>
-            cat is cute<cursor />
+            cat is cute
+            <cursor />
           </b>
         </i>
         <b>d.</b>

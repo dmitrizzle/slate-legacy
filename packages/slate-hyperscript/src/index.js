@@ -152,13 +152,15 @@ const CREATORS = {
         if (text.__decorations != null) {
           // add in all mark-like (keyless) decorations
           decorations = decorations.concat(
-            text.__decorations.filter(d => d._key === undefined).map(d =>
-              Range.create({
-                ...d,
-                anchorKey: text.key,
-                focusKey: text.key,
-              })
-            )
+            text.__decorations
+              .filter(d => d._key === undefined)
+              .map(d =>
+                Range.create({
+                  ...d,
+                  anchorKey: text.key,
+                  focusKey: text.key,
+                })
+              )
           )
 
           // store or combine partial decorations (keyed with anchor / focus)
@@ -342,15 +344,14 @@ function createChildren(children, options = {}) {
 
       if (__decorations != null) {
         node.__decorations = (node.__decorations || []).concat(
-          __decorations.map(
-            d =>
-              d instanceof DecoratorPoint
-                ? d.addOffset(length)
-                : {
-                    ...d,
-                    anchorOffset: d.anchorOffset + length,
-                    focusOffset: d.focusOffset + length,
-                  }
+          __decorations.map(d =>
+            d instanceof DecoratorPoint
+              ? d.addOffset(length)
+              : {
+                  ...d,
+                  anchorOffset: d.anchorOffset + length,
+                  focusOffset: d.focusOffset + length,
+                }
           )
         )
       }

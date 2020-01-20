@@ -10,7 +10,8 @@ export const input = (
   <value>
     <document>
       <paragraph>
-        w<anchor />o<focus />rd
+        w<anchor />o<focus />
+        rd
       </paragraph>
     </document>
   </value>
@@ -20,7 +21,8 @@ export const output = (
   <value>
     <document>
       <paragraph>
-        w<cursor />rd
+        w<cursor />
+        rd
       </paragraph>
     </document>
   </value>

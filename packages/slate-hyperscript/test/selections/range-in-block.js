@@ -6,7 +6,9 @@ export const input = (
   <value>
     <document>
       <block type="paragraph">
-        This is a <anchor />paragraph<focus /> with an open selection.
+        This is a <anchor />
+        paragraph
+        <focus /> with an open selection.
       </block>
     </document>
   </value>

@@ -11,12 +11,16 @@ export const input = (
     <document>
       <paragraph>
         <link>
-          wo<anchor />rd
+          wo
+          <anchor />
+          rd
         </link>
       </paragraph>
       <paragraph>
         <hashtag>
-          an<focus />other
+          an
+          <focus />
+          other
         </hashtag>
       </paragraph>
     </document>
@@ -31,7 +35,8 @@ export const output = (
       </paragraph>
       <paragraph>
         <hashtag>
-          <cursor />other
+          <cursor />
+          other
         </hashtag>
       </paragraph>
     </document>

@@ -4,7 +4,7 @@ import { List } from 'immutable'
 import { Mark } from '../../../../..'
 import h from '../../../../helpers/h'
 
-export const input = <i />[0]
+export const input = (<i />)[0]
 
 export default function(t) {
   return t.insertText(0, 'Cat is Cute', List.of(Mark.create({ type: 'bold' })))

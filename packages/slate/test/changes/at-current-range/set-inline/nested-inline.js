@@ -12,7 +12,8 @@ export const input = (
       <paragraph>
         <hashtag>
           <link>
-            <cursor />word
+            <cursor />
+            word
           </link>
         </hashtag>
       </paragraph>
@@ -26,7 +27,8 @@ export const output = (
       <paragraph>
         <hashtag>
           <comment>
-            <cursor />word
+            <cursor />
+            word
           </comment>
         </hashtag>
       </paragraph>

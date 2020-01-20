@@ -10,7 +10,8 @@ export const input = (
   <value>
     <document>
       <paragraph>
-        <cursor />one two three
+        <cursor />
+        one two three
       </paragraph>
     </document>
   </value>

@@ -10,7 +10,9 @@ export const input = (
   <value>
     <document>
       <paragraph>
-        one two thr<cursor />ee
+        one two thr
+        <cursor />
+        ee
       </paragraph>
     </document>
   </value>
@@ -20,7 +22,8 @@ export const output = (
   <value>
     <document>
       <paragraph>
-        <cursor />ee
+        <cursor />
+        ee
       </paragraph>
     </document>
   </value>

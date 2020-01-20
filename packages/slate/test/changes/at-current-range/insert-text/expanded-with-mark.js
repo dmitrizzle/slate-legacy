@@ -16,12 +16,14 @@ export const input = (
     <document>
       <paragraph>
         <b>
-          <anchor />lorem
+          <anchor />
+          lorem
         </b>
         ipsum
       </paragraph>
       <paragraph>
-        ipsum<focus />
+        ipsum
+        <focus />
       </paragraph>
     </document>
   </value>
@@ -32,7 +34,8 @@ export const output = (
     <document>
       <paragraph>
         <b>
-          ab<cursor />
+          ab
+          <cursor />
         </b>
       </paragraph>
     </document>

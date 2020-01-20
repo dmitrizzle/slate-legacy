@@ -11,7 +11,9 @@ export const input = (
     <document>
       <paragraph>
         <text key="a">
-          w<anchor />or<focus />d
+          w<anchor />
+          or
+          <focus />d
         </text>
       </paragraph>
     </document>
@@ -22,7 +24,10 @@ export const output = (
   <value>
     <document>
       <paragraph>
-        wx<anchor />or<focus />d
+        wx
+        <anchor />
+        or
+        <focus />d
       </paragraph>
     </document>
   </value>

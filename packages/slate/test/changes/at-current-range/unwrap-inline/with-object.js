@@ -13,11 +13,14 @@ export const input = (
   <value>
     <document>
       <paragraph>
-        w<hashtag thing="value">
+        w
+        <hashtag thing="value">
           <hashtag>
-            <cursor />or
+            <cursor />
+            or
           </hashtag>
-        </hashtag>d
+        </hashtag>
+        d
       </paragraph>
     </document>
   </value>
@@ -27,9 +30,12 @@ export const output = (
   <value>
     <document>
       <paragraph>
-        w<hashtag>
-          <cursor />or
-        </hashtag>d
+        w
+        <hashtag>
+          <cursor />
+          or
+        </hashtag>
+        d
       </paragraph>
     </document>
   </value>

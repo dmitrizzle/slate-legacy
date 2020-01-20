@@ -10,9 +10,11 @@ export const input = (
   <value>
     <document>
       <paragraph>
-        w<b>
+        w
+        <b>
           o<cursor />r
-        </b>d
+        </b>
+        d
       </paragraph>
     </document>
   </value>
@@ -22,9 +24,12 @@ export const output = (
   <value>
     <document>
       <paragraph>
-        w<b>
-          oa<cursor />r
-        </b>d
+        w
+        <b>
+          oa
+          <cursor />r
+        </b>
+        d
       </paragraph>
     </document>
   </value>

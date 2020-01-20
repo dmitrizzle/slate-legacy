@@ -20,7 +20,9 @@ export const output = (
   <value>
     <document>
       <paragraph>
-        [[<cursor />]]
+        [[
+        <cursor />
+        ]]
       </paragraph>
     </document>
   </value>

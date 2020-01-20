@@ -12,4 +12,4 @@ export default function(t) {
   return t.removeText(0, t.text.length)
 }
 
-export const output = <b />[0]
+export const output = (<b />)[0]

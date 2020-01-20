@@ -11,12 +11,14 @@ export const input = (
     <document>
       <paragraph>
         <link>
-          <anchor />word
+          <anchor />
+          word
         </link>
       </paragraph>
       <paragraph>
         <link>
-          <focus />another
+          <focus />
+          another
         </link>
       </paragraph>
     </document>
@@ -28,12 +30,14 @@ export const output = (
     <document>
       <paragraph>
         <hashtag>
-          <anchor />word
+          <anchor />
+          word
         </hashtag>
       </paragraph>
       <paragraph>
         <hashtag>
-          <focus />another
+          <focus />
+          another
         </hashtag>
       </paragraph>
     </document>

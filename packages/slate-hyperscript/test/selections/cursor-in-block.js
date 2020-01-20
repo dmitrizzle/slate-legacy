@@ -6,7 +6,8 @@ export const input = (
   <value>
     <document>
       <block type="paragraph">
-        This is a paragraph with a cursor position <cursor />(closed selection).
+        This is a paragraph with a cursor position <cursor />
+        (closed selection).
       </block>
     </document>
   </value>

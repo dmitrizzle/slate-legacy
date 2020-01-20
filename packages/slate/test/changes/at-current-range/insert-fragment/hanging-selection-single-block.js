@@ -19,10 +19,12 @@ export const input = (
     <document>
       <paragraph>zero</paragraph>
       <paragraph>
-        <anchor />one
+        <anchor />
+        one
       </paragraph>
       <quote>
-        <focus />two
+        <focus />
+        two
       </quote>
     </document>
   </value>
@@ -38,7 +40,9 @@ export const output = (
       <quote>fragment zero</quote>
       <paragraph>fragment one</paragraph>
       <paragraph>
-        fragment two<cursor />two
+        fragment two
+        <cursor />
+        two
       </paragraph>
     </document>
   </value>
