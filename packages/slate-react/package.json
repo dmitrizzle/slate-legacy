@@ -1,9 +1,9 @@
 {
-  "name": "slate-react",
-  "description": "A set of React components for building completely customizable rich-text editors.",
-  "version": "0.13.4",
+  "name": "slate-react-legacy",
+  "description": "A maintained legacy (v0.34.3) version fork of Slate.js -matching React components.",
+  "version": "0.13.5",
   "license": "MIT",
-  "repository": "git://github.com/ianstormtaylor/slate.git",
+  "repository": "git://github.com/dmitrizzle/slate-legacy.git",
   "main": "lib/slate-react.js",
   "module": "lib/slate-react.es.js",
   "umd": "dist/slate-react.js",
@@ -46,6 +46,7 @@
   },
   "scripts": {
     "clean": "rm -rf ./dist ./lib ./node_modules",
+    "release": "echo 'Run `npm publish --access public`'",
     "prepublish": "node ./slate-legacy-prepublish.js",
     "postpublish": "node ./slate-legacy-postpublish.js"
   },
