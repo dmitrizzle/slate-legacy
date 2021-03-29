@@ -19,6 +19,9 @@ fs.readFile('./package.json', 'utf8', (error, data) => {
 
     // Change package name for publication.
     package.name = 'slate-react-legacy'
+    package.repository = 'git://github.com/dmitrizzle/slate-legacy.git'
+    package.description =
+      'A maintained legacy (v0.34.3) version fork of Slate.js -matching React components.'
 
     try {
       fs.writeFile('./package.json', JSON.stringify(package), 'utf8', error => {

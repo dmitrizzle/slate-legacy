@@ -15,6 +15,9 @@ fs.readFile('./package.json', 'utf8', (error, data) => {
 
     // Change package name for publication.
     package.name = 'slate-react'
+    package.repository = 'git://github.com/ianstormtaylor/slate.git'
+    package.description =
+      'A set of React components for building completely customizable rich-text editors.'
 
     // restore package
     try {
