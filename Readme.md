@@ -1,6 +1,6 @@
 > This repository is maintained to distribute `slate-react@0.13.0` package but with updated dependencies and improved React compatibility. You can use it in your project via NPM with `slate-react-legacy`. The versioning for this maintained clone starts with `v0.13.1`. The rest of the packages in the repository are only to support the development and preserve original state of `slate-react-legacy`.
 
-> Releases are pushed using `cd ./packages/slate-react && yarn release:legacy`
+> Releases are pushed using `cd ./packages/slate-react && yarn release`
 
 > The original README file below:
 
